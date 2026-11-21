@@ -1,32 +1,85 @@
 {
   "dataset": "assignment",
+  "catalogs": {
+    "objectives": [
+      {
+        "id": "obj-1",
+        "course": "algebra",
+        "description": "explain-equivalent-transformations"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "task-1",
+        "objective": "obj-1",
+        "revision": "r1",
+        "check": "check-1"
+      },
+      {
+        "id": "task-1",
+        "objective": "obj-1",
+        "revision": "r2",
+        "check": "check-2"
+      }
+    ]
+  },
   "records": [
     {
-      "id": "a-01",
-      "task": "equation-reasoning",
-      "goal": "explain transformation",
+      "id": "a-1",
+      "kind": "work",
+      "task": "task-1",
       "revision": "r1",
-      "kind": "initial",
+      "learner": "l-1",
+      "event": "draft",
       "help": "none",
-      "independent_check": "pending"
+      "at": "2026-09-03T09:10:00"
     },
     {
-      "id": "a-02",
-      "task": "equation-reasoning",
-      "goal": "explain transformation",
-      "revision": "r2",
-      "kind": "student-revision",
-      "help": "hint",
-      "independent_check": "passed"
-    },
-    {
-      "id": "a-03",
-      "task": "source-comparison",
-      "goal": "compare evidence",
+      "id": "a-2",
+      "kind": "work",
+      "task": "task-1",
       "revision": "r1",
-      "kind": "final-work",
-      "help": "generated-example",
-      "independent_check": "missing"
+      "learner": "l-1",
+      "event": "final",
+      "help": "worked-example",
+      "at": "2026-09-03T09:34:00"
+    },
+    {
+      "id": "a-3",
+      "kind": "check",
+      "task": "check-1",
+      "learner": "l-1",
+      "help_removed": true,
+      "objective": "obj-1",
+      "status": "pending"
+    },
+    {
+      "id": "a-4",
+      "kind": "check",
+      "task": "check-2",
+      "learner": "l-1",
+      "help_removed": true,
+      "objective": "obj-1",
+      "status": "not-scheduled"
+    },
+    {
+      "id": "a-5",
+      "kind": "work",
+      "task": "task-1",
+      "revision": "r2",
+      "learner": "l-2",
+      "event": "final",
+      "help": "hint",
+      "at": "2026-09-04T10:20:00"
+    },
+    {
+      "id": "a-6",
+      "kind": "check",
+      "task": "check-1",
+      "learner": "l-2",
+      "help_removed": true,
+      "objective": "obj-1",
+      "status": "failed"
     }
   ]
 }

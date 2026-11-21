@@ -1,5 +1,5 @@
-# 记录格式
+# 合成课程资料格式
 
-作业过程记录以 id、task、goal、revision、kind、help、independent_check 描述任务版本、材料类型、帮助和独立检查状态。independent_check 可为 passed、pending 或 missing。
+课程记录分为目标与任务版本目录，以及过程和独立检查事件。过程事件通过 task、revision、learner 对应任务版本，check 事件记录检查状态；pending、not-scheduled 和 failed 是不同状态。
 
-记录以 UTF-8 JSON 保存，顶层包含 dataset 和 records。每条记录的 id 在文件中唯一。`fixtures/records.json` 中的例子用于说明输入字段和状态取值。
+夹具只包含虚构的课程、任务和学习事件，不含真实学生资料，也不预先给出分析结论。项目当前入口仅检查夹具格式。
