@@ -1,0 +1,32 @@
+{
+  "dataset": "assignment",
+  "records": [
+    {
+      "id": "a-01",
+      "task": "equation-reasoning",
+      "goal": "explain transformation",
+      "revision": "r1",
+      "kind": "initial",
+      "help": "none",
+      "independent_check": "pending"
+    },
+    {
+      "id": "a-02",
+      "task": "equation-reasoning",
+      "goal": "explain transformation",
+      "revision": "r2",
+      "kind": "student-revision",
+      "help": "hint",
+      "independent_check": "passed"
+    },
+    {
+      "id": "a-03",
+      "task": "source-comparison",
+      "goal": "compare evidence",
+      "revision": "r1",
+      "kind": "final-work",
+      "help": "generated-example",
+      "independent_check": "missing"
+    }
+  ]
+}
