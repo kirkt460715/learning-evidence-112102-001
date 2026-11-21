@@ -10,13 +10,13 @@
     ],
     "tasks": [
       {
-        "id": "task-1",
+        "id": "task-r1",
         "objective": "obj-1",
         "revision": "r1",
         "check": "check-1"
       },
       {
-        "id": "task-1",
+        "id": "task-r2",
         "objective": "obj-1",
         "revision": "r2",
         "check": "check-2"
@@ -27,7 +27,7 @@
     {
       "id": "a-1",
       "kind": "work",
-      "task": "task-1",
+      "task": "task-r1",
       "revision": "r1",
       "learner": "l-1",
       "event": "draft",
@@ -37,7 +37,7 @@
     {
       "id": "a-2",
       "kind": "work",
-      "task": "task-1",
+      "task": "task-r1",
       "revision": "r1",
       "learner": "l-1",
       "event": "final",
@@ -65,7 +65,7 @@
     {
       "id": "a-5",
       "kind": "work",
-      "task": "task-1",
+      "task": "task-r2",
       "revision": "r2",
       "learner": "l-2",
       "event": "final",
